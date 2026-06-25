@@ -1,6 +1,8 @@
 # Predicting Mountain vs. Beach Vacation Preferences
 
-**Jibril Hussaini** - CS405/CS505 Data Mining, Bishop's University
+## Author
+
+Jibril Hussaini
 
 ## Abstract
 

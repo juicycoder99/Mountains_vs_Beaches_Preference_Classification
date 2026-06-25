@@ -1,15 +1,13 @@
-# Data Mining (CS405/CS505) — Final Project: Mountains vs. Beaches Preferences
-
-Course final project for **Data Mining (CS405/CS505)**, Bishop's University.
+# Mountains vs. Beaches Preference Classification
 
 Predicting whether a person prefers a **beach** or a **mountain** vacation from demographic and
 lifestyle features, comparing three classifiers with cross-validation, handling overfitting, and
 analysing the features that drive the preference.
 
-- Notebook: [`Final_Project_Mountains_vs_Beaches.ipynb`](Final_Project_Mountains_vs_Beaches.ipynb)
+- Notebook: [`mountains_vs_beaches_classification.ipynb`](mountains_vs_beaches_classification.ipynb)
 - Report: [`report.md`](report.md)
 
-## Approach (the four required steps)
+## Approach
 
 1. **Choice of classifiers** — Decision Tree (interpretable, gives feature importances), K-Nearest
    Neighbours (non-parametric baseline), and a Neural Network / MLP (flexible non-linear model).
@@ -41,14 +39,14 @@ the categorical columns and standardisation of the numeric columns, fit on the t
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
-jupyter notebook Final_Project_Mountains_vs_Beaches.ipynb
+jupyter notebook mountains_vs_beaches_classification.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Final_Project_Mountains_vs_Beaches.ipynb` | Full solution (Steps 1–4) |
+| `mountains_vs_beaches_classification.ipynb` | Full implementation and analysis (Steps 1–4) |
 | `report.md` | Written report |
 | `mountains_vs_beaches_preferences.csv` | Dataset |
-| `Final project.pdf` | Project description |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
